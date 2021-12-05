@@ -145,10 +145,10 @@ pub enum Parity {
 
 /// A struct holding the configuration for an UART device.
 pub struct UartConfig {
-    baudrate: Baud,
-    data_bits: DataBits,
-    stop_bits: StopBits,
-    parity: Option<Parity>,
+    pub baudrate: Baud,
+    pub data_bits: DataBits,
+    pub stop_bits: StopBits,
+    pub parity: Option<Parity>,
 }
 
 /// Common configurations for UART.
